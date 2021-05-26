@@ -2,7 +2,7 @@ using { Currency, managed, sap } from '@sap/cds/common';
 
 namespace sap.capire.bookshop;
 
-entity Books : managed {
+entity Books : managed{
     key ID       : Integer               @title : 'ID';
         title    : localized String(111) @title : 'Title';
         descr    : localized String(1111)@title : 'Description';
